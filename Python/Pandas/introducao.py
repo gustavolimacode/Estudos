@@ -14,4 +14,6 @@ df.to_excel("dataframe_pandas.xlsx", index=False)
 
 # Lendo o arquivo excel
 new_df = pd.read_excel("dataframe_pandas.xlsx")
+
+# .head() serve para exibir apenas as 5 primeiras linhas do DataFrame
 print(new_df.head())
