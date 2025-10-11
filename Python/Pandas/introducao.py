@@ -17,3 +17,12 @@ new_df = pd.read_excel("dataframe_pandas.xlsx")
 
 # .head() serve para exibir apenas as 5 primeiras linhas do DataFrame
 print(new_df.head())
+
+# Selecionar Coluna
+print(new_df['produto'])
+
+# Selecionar várias colunas
+print(new_df[['produto', 'valor']])
+
+# Selecionar linha pelo índice
+print(new_df.loc[0]) # Primeira linha
